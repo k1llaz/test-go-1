@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-go-k1llaz
+  description: Another test
+  annotations: 
+    github.com/project-slug: k1llaz/test-go-1
+    backstage.io/github-actions-id: k1llaz/test-go-1
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jklapacz
